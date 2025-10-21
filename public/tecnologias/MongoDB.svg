@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="235" viewBox="0 0 215 235">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_34123" data-name="Path 34123" d="M19.527,93.356A86.038,86.038,0,1,0,105.565,7.318,86.04,86.04,0,0,0,19.527,93.356" transform="translate(-19.527 -7.318)" fill="#f3f3f3"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3227" data-name="Rectangle 3227" width="56.739" height="126.32" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10278" data-name="Group 10278" transform="translate(5676 19466)">
+    <rect id="Rectangle_3226" data-name="Rectangle 3226" width="215" height="55" rx="13" transform="translate(-5676 -19286)" fill="#fff"/>
+    <path id="Path_34122" data-name="Path 34122" d="M216.053,101.922A101.922,101.922,0,1,1,114.131,0,101.922,101.922,0,0,1,216.053,101.922" transform="translate(-5682.209 -19466)" fill="#fff"/>
+    <g id="Group_8613" data-name="Group 8613" transform="translate(-5655 -19448.982)">
+      <g id="Group_8612" data-name="Group 8612" clip-path="url(#clip-path)">
+        <rect id="Rectangle_2711" data-name="Rectangle 2711" width="172.076" height="172.076" transform="translate(0 0)" fill="#f3f3f3"/>
+      </g>
+    </g>
+    <text id="MongoDB" transform="translate(-5650 -19244.736)" fill="#343434" font-size="36" font-family="HandelGotD-Bold, HandelGotDBol" font-weight="700" letter-spacing="-0.021em"><tspan x="0" y="0">MongoDB</tspan></text>
+    <g id="Group_10277" data-name="Group 10277" transform="translate(-5597 -19427.238)">
+      <g id="Group_10276" data-name="Group 10276" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <path id="Path_35769" data-name="Path 35769" d="M14.221.175l3.371,6.331a18.916,18.916,0,0,0,2.546,3.166,88.443,88.443,0,0,1,7.91,8.944A77.731,77.731,0,0,1,40.364,43.452a61.072,61.072,0,0,1,2.613,16.855A59.48,59.48,0,0,1,25.609,104.2a50.127,50.127,0,0,1-6.2,5.3c-1.168,0-1.721-.9-2.2-1.721a14.166,14.166,0,0,1-1.721-4.954,23.935,23.935,0,0,1-.553-6.26V95.6C14.841,95.393,13.811.661,14.221.175" transform="translate(13.752 0.171)" fill="#599636"/>
+        <path id="Path_35770" data-name="Path 35770" d="M27.974.136C27.836-.14,27.7.069,27.559.2a6.36,6.36,0,0,1-1.168,3.789A18.155,18.155,0,0,1,23.364,7.02,65.933,65.933,0,0,0,8.573,25.872,75.729,75.729,0,0,0,.048,56.691C-.3,60.611,1.287,74.442,2.522,78.433,5.893,89.027,11.948,97.9,19.791,105.609a75.457,75.457,0,0,0,6.118,5.23c.62,0,.687-.553.829-.963a18.693,18.693,0,0,0,.62-2.684L28.74,96.874Z" transform="translate(0 0.001)" fill="#6cac48"/>
+        <path id="Path_35771" data-name="Path 35771" d="M18.563,67.022a9.418,9.418,0,0,1,1.721-4.2,4.342,4.342,0,0,1-1.926-1.788,12.769,12.769,0,0,1-1.026-2.27A39.285,39.285,0,0,1,15.887,49.9V48.107c-.343.276-.414,2.613-.414,2.96a68.746,68.746,0,0,1-1.239,9.288,8.264,8.264,0,0,1-1.105,3.576,1.37,1.37,0,0,0,.067.482A41.08,41.08,0,0,1,14.983,75.56v1.382c0,1.65-.067,1.3,1.3,1.855a6.034,6.034,0,0,1,1.721.687c.414,0,.482-.343.482-.62l-.205-2.27V70.263a16.743,16.743,0,0,1,.276-3.237Z" transform="translate(12.781 46.837)" fill="#c2bfbf"/>
+      </g>
+    </g>
+  </g>
+</svg>

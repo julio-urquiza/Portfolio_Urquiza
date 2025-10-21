@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+    /* border: 1px red solid */
+}
+
+@keyframes scroll {
+    0% {
+        top: 25%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 75%;
+        opacity: 0;
+    }
+}

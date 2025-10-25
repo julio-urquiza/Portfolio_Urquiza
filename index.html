@@ -10,7 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./styles/output.css">
     <title>Portfolio</title>
 </head>
 
@@ -87,7 +87,9 @@
             <article>
                 <div class="flex flex-col space-y-6">
                     <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
-                        <img src="./public/Preview_BBDD.png" alt="Entity relationship diagram showing database schema for a library system with tables for books, authors, customers, orders and related entities" class="sm:w-2/5 object-cover">
+                        <img src="./public/Preview_BBDD.png"
+                            alt="Entity relationship diagram showing database schema for a library system with tables for books, authors, customers, orders and related entities"
+                            class="sm:w-2/5 object-cover">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl">Base de Datos de Biblioteca</h3>
                             <p class="text-sm leading-7 text-gray-300 md:text-lg ">
@@ -168,15 +170,17 @@
                     <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div> -->
 
                     <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
-                        <img src="./public/Preview_Portfolio.png" alt="imagen de proyecto" class=" sm:w-2/5 object-cover">
+                        <img src="./public/Preview_Portfolio.png" alt="imagen de proyecto"
+                            class=" sm:w-2/5 object-cover">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl">Portfolio</h3>
                             <p class="text-sm leading-7 text-gray-300 md:text-lg">
-                                Este es mi portfolio personal, desarrollado con HTML y Tailwind CSS. El sitio web presenta mi experiencia profesional, proyectos y habilidades en el campo del desarrollo de software.
+                                Este es mi portfolio personal, desarrollado con HTML y Tailwind CSS. El sitio web
+                                presenta mi experiencia profesional, proyectos y habilidades en el campo del desarrollo
+                                de software.
                             </p>
                             <div class="flex flex-wrap gap-2">
-                                <a href="https://github.com/julio-urquiza/"
-                                    target="_blank">
+                                <a href="https://github.com/julio-urquiza/" target="_blank">
                                     <div class="border p-2 text-white hover:text-blue-500">Repositorio Github</div>
                                 </a>
                             </div>
@@ -290,11 +294,11 @@
 
                 <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
 
-                <form action="" class="flex flex-col items-center space-y-3 w-11/12">
-                    <input type="text" placeholder="Nombre" class="border border-gray-400 rounded-xl px-2 py-2 w-11/12">
-                    <input type="email" placeholder="Email" class="border border-gray-400 rounded-xl px-2 py-2 w-11/12">
-                    <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje"
-                        class="border border-gray-400 rounded-xl px-2 py-2 w-11/12 resize-none"></textarea>
+                <form action="" class="flex flex-col items-center space-y-3 w-11/12" id="miFormulario">
+                    <input type="text" placeholder="Nombre" class="border border-gray-400 rounded-xl px-2 py-2 w-11/12" id="nombre" required>
+                    <input type="email" placeholder="Email" class="border border-gray-400 rounded-xl px-2 py-2 w-11/12" id="email" required>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Mensaje"
+                        class="border border-gray-400 rounded-xl px-2 py-2 w-11/12 resize-none" required></textarea>
                     <button type="submit"
                         class="border border-gray-400 rounded-xl px-2 py-2 bg-emerald-700/30 hover:bg-emerald-700/100 z-10">Enviar</button>
                 </form>
@@ -339,7 +343,7 @@
         </div>
 
     </footer>
-
+    <!-- 
     <script>
         const aside = document.getElementById('social-aside');
         const toggle = document.getElementById('toggle-aside');
@@ -347,7 +351,9 @@
         toggle.addEventListener('click', () => {
             aside.classList.toggle('hidden');
         });
-    </script>
+    </script> -->
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

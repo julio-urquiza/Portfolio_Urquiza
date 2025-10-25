@@ -48,25 +48,24 @@
             </article>
             <article class="bg-gray-600 w-4/6 h-0.5"></article>
             <article class="flex flex-col items-center space-y-3">
-                <div>
-                    <button
-                        class="p-2 border rounded-3xl text-base hover:border-blue-500 hover:text-blue-500 transition-colors duration-500 ease-in-out sm:text-2xl">
-                        <a href="https://www.linkedin.com/in/julio-cesar-urquiza-b4194a1b6/"
-                            class="ri-linkedin-box-fill text-base sm:text-3xl"></a>
+                <div class="flex">
+                    <a class="flex justify-center items-center p-2 border rounded-3xl text-base hover:border-blue-500 hover:text-blue-500 transition-colors duration-500 ease-in-out sm:text-2xl"
+                        href="https://www.linkedin.com/in/julio-urquiza/" target="_blank">
+                        <div class="ri-linkedin-box-fill text-base sm:text-3xl"></div>
                         Linkedin
-                    </button>
-                    <button
-                        class="p-2 border rounded-3xl text-base hover:border-violet-500 hover:text-violet-500 transition-colors duration-500 ease-in-out sm:text-2xl">
-                        <a href="https://github.com/" class="ri-github-fill text-base sm:text-3xl"></a>
+                    </a>
+                    <a class="flex justify-center items-center p-2 border rounded-3xl text-base hover:border-violet-500 hover:text-violet-500 transition-colors duration-500 ease-in-out sm:text-2xl"
+                        href="https://github.com/julio-urquiza" target="_blank">
+                        <div class="ri-github-fill text-base sm:text-3xl"></div>
                         Github
-                    </button>
+                    </a>
                 </div>
                 <div>
-                    <button
-                        class="p-2 border rounded-3xl text-base hover:border-red-500 hover:text-red-500 transition-colors duration-500 ease-in-out sm:text-2xl">
-                        <a href="mailto:julio.cesar.urquiza4@gmail.com" class="ri-mail-line text-base sm:text-3xl"></a>
+                    <a class="flex justify-center items-center p-2 border rounded-3xl text-base hover:border-red-500 hover:text-red-500 transition-colors duration-500 ease-in-out sm:text-2xl"
+                        href="mailto:julio.cesar.urquiza4@gmail.com" target="_blank">
+                        <div class="ri-mail-line text-base sm:text-3xl"></div>
                         julio.cesar.urquiza4@gmail.com
-                    </button>
+                    </a>
                 </div>
             </article>
             <article>
@@ -79,7 +78,7 @@
         </section>
 
 
-        <section id="proyectos" class="w-11/12 space-y-6 sm:w-10/12 md:w-7/12">
+        <section id="proyectos" class="w-11/12 space-y-6 sm:w-10/12 lg:w-7/12">
             <article class="space-y-2">
                 <h2 class="text-2xl max-w-max mx-auto md:text-3xl">PROYECTOS</h2>
                 <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
@@ -88,7 +87,7 @@
             <article>
                 <div class="flex flex-col space-y-6">
                     <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
-                        <img src="../public/Placeholder.svg" alt="imagen de proyecto" class="sm:w-2/5">
+                        <img src="../public/Preview_BBDD.png" alt="imagen de proyecto" class="sm:w-2/5">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl">Base de Datos de Biblioteca</h3>
                             <p class="text-sm leading-7 text-gray-300 md:text-lg ">
@@ -98,7 +97,12 @@
                                 libros existentes en el establecimiento. De la misma manera, contará con una lista de
                                 clientes registrados, los cuales podrán realizar alquileres de los libros.
                             </p>
-                            <a href="https://github.com/julio-urquiza/Proyecto_Final_CoderHouse.git">github.com/julio-urquiza/Proyecto_Final_CoderHouse.git</a>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://github.com/julio-urquiza/Proyecto_Final_CoderHouse.git"
+                                    target="_blank">
+                                    <div class="border p-2 text-white hover:text-blue-500">Repositorio Github</div>
+                                </a>
+                            </div>
                             <div class="flex flex-wrap gap-2">
                                 <div class="border p-2 rounded-xl text-blue-500">SQL</div>
                                 <div class="border p-2 rounded-xl text-blue-300">MySQL</div>
@@ -109,13 +113,23 @@
                     <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
 
                     <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3">
-                        <img src="../public/Placeholder.svg" alt="imagen de proyecto" class="sm:w-2/5">
+                        <img src="../public/Preview_Api.png" alt="imagen de proyecto" class="sm:w-2/5">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl">API E-Comerce</h3>
                             <p class="text-sm leading-7 text-gray-300 md:text-lg">
-                                Este proyecto corresponde al curso de Diseño y Arquitectura Backend 2 de Coderhouse. Se trata de una API RESTful desarrollada con Node.js y Express, diseñada para gestionar usuarios, productos y órdenes en un sistema de comercio electrónico.
+                                Este proyecto corresponde al curso de Diseño y Arquitectura Backend 2 de Coderhouse. Se
+                                trata de una API RESTful desarrollada con Node.js y Express, diseñada para gestionar
+                                usuarios, productos y órdenes en un sistema de comercio electrónico.
                             </p>
-                            <a href="https://github.com/julio-urquiza/Proyecto-Final-BackEnd-2">github.com/julio-urquiza/Proyecto-Final-BackEnd-2</a>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://github.com/julio-urquiza/E-commerce-Backend-API" target="_blank">
+                                    <div class="border p-2 text-white hover:text-blue-500">Repositorio Github</div>
+                                </a>
+                                <a href="https://e-commerce-backend-api-production.up.railway.app/api-docs/"
+                                    target="_blank">
+                                    <div class="border p-2 text-white hover:text-blue-500">Deployment Railway</div>
+                                </a>
+                            </div>
                             <div class="flex flex-wrap gap-2">
                                 <div class="border p-2 rounded-xl text-yellow-400">Javascript</div>
                                 <div class="border p-2 rounded-xl text-green-500">Node.js</div>
@@ -128,7 +142,7 @@
 
                     <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
 
-                    <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
+                    <!-- <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
                         <img src="../public/Placeholder.svg" alt="imagen de proyecto" class="sm:w-2/5">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl"> API E-Comerce</h3>
@@ -139,7 +153,8 @@
                                 libros existentes en el establecimiento. De la misma manera, contará con una lista de
                                 clientes registrados, los cuales podrán realizar alquileres de los libros.
                             </p>
-                            <a href="https://github.com/julio-urquiza/Proyecto_Final_CoderHouse.git">github.com/julio-urquiza/Proyecto_Final_CoderHouse.git</a>
+                            <a
+                                href="https://github.com/julio-urquiza/Proyecto_Final_CoderHouse.git">github.com/julio-urquiza/Proyecto_Final_CoderHouse.git</a>
                             <div class="flex flex-wrap gap-2">
                                 <div class="border p-2 rounded-xl text-red-400">Java</div>
                                 <div class="border p-2 rounded-xl text-green-600">Srping Boot</div>
@@ -150,20 +165,21 @@
                         </div>
                     </div>
 
-                    <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
+                    <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div> -->
 
                     <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-3 ">
-                        <img src="../public/Placeholder.svg" alt="imagen de proyecto" class="sm:w-2/5">
+                        <img src="../public/Preview_Portfolio.png" alt="imagen de proyecto" class=" sm:w-2/5">
                         <div class="flex flex-col space-y-2">
                             <h3 class="text-xl font-bold md:text-2xl">Portfolio</h3>
                             <p class="text-sm leading-7 text-gray-300 md:text-lg">
-                                El objetivo de la base de datos mostrada a continuación es servir de eje central para la
-                                organización de una biblioteca. La base proveerá a los empleados una vista detallada de
-                                los
-                                libros existentes en el establecimiento. De la misma manera, contará con una lista de
-                                clientes registrados, los cuales podrán realizar alquileres de los libros.
+                                Este es mi portfolio personal, desarrollado con HTML y Tailwind CSS. El sitio web presenta mi experiencia profesional, proyectos y habilidades en el campo del desarrollo de software.
                             </p>
-                            <a href="https://github.com/julio-urquiza/Proyecto_Final_CoderHouse.git">github.com/julio-urquiza/Proyecto_Final_CoderHouse.git</a>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://github.com/julio-urquiza/"
+                                    target="_blank">
+                                    <div class="border p-2 text-white hover:text-blue-500">Repositorio Github</div>
+                                </a>
+                            </div>
                             <div class="flex flex-wrap gap-2">
                                 <div class="border p-2 rounded-xl text-orange-600">HTML</div>
                                 <div class="border p-2 rounded-xl text-blue-500">CSS</div>
@@ -178,18 +194,19 @@
             </article>
         </section>
 
-        <section id="sobre_mi" class="w-11/12 space-y-10 sm:w-10/12 md:w-7/12">
+        <section id="sobre_mi" class="w-11/12 space-y-10 sm:w-10/12 lg:w-7/12">
 
             <article class="flex flex-col items-center space-y-2">
                 <h2 class="text-2xl text-center md:text-3xl">SOBRE MI</h2>
                 <div class="bg-gray-600 w-4/6 h-0.5"></div>
                 <p class="text-sm leading-7 text-center text-gray-300 md:text-lg">Aqui encontraras informacion sobre mi,
-                    y mis habilidades y tecnologías que utilizo </p>
+                    y mis habilidades y mi formación</p>
             </article>
 
             <article>
                 <h3 class="text-xl font-bold">HOLA!</h3>
-                <p class="text-sm leading-7 text-gray-300 md:text-lg">Soy Julio Cesar Urquiza, profesional en tecnología con
+                <p class="text-sm leading-7 text-gray-300 md:text-lg">Soy Julio Cesar Urquiza, profesional en tecnología
+                    con
                     enfoque en desarrollo y control de calidad de software. Poseo habilidades en programación,
                     automatización de pruebas, gestión de proyectos y trabajo en equipo. Mi objetivo es contribuir al
                     éxito de proyectos tecnológicos mediante la aplicación de mis conocimientos y habilidades técnicas.
@@ -257,7 +274,8 @@
             </article>
         </section>
 
-        <section id="contacto" class="h-[calc(100vh-8rem)] w-11/12 flex justify-center items-center sm:w-10/12 md:w-7/12">
+        <section id="contacto"
+            class="h-[calc(100vh-8rem)] w-11/12 flex justify-center items-center sm:w-10/12 lg:w-7/12">
 
             <article
                 class="w-full h-11/12 flex flex-col items-center justify-center space-y-3 border border-gray-400 rounded-2xl">
@@ -265,7 +283,8 @@
                 <div class="space-y-3 w-10/12">
                     <h2 class="text-center text-2xl z-10">Contacto</h2>
                     <div class="bg-gray-600 w-4/6 h-0.5 mx-auto"></div>
-                    <p class="text-center text-sm text-gray-300 md:text-xl">Si mi perfil es de su interez rellena el siguiente
+                    <p class="text-center text-sm text-gray-300 md:text-xl">Si mi perfil es de su interez rellena el
+                        siguiente
                         formulario o mandar un correo a julio.cesar.urquiza4@gmail.com</p>
                 </div>
 
@@ -285,7 +304,7 @@
 
     </main>
 
-    <aside
+    <!-- <aside
         class="fixed left-0 top-2/12 py-1 px-1 rounded-r-3xl border border-l-0 border-gray-500 hover:border-white transition-colors ease-in-out bg-black/50 backdrop-blur-sm">
 
         <button id="toggle-aside" class="left-0 text-gray-400 md:hidden ri-arrow-right-wide-fill text-2xl">
@@ -293,28 +312,24 @@
 
         <article id="social-aside" class="hidden sm:block">
             <div>
-                <a href="https://github.com/"
+                <a href="https://github.com/" target="_blank"
                     class="ri-github-fill text-2xl text-gray-400 hover:text-white transition-colors ease-in-out md:text-4xl"></a>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/julio-cesar-urquiza-b4194a1b6/"
+                <a href="https://www.linkedin.com/in/julio-urquiza/" target="_blank"
                     class="ri-linkedin-box-fill text-2xl text-gray-400 hover:text-white transition-colors ease-in-out md:text-4xl"></a>
-            </div>
-            <div>
-                <a class="ri-phone-fill text-2xl text-gray-400 hover:text-white transition-colors duration-500 ease-in-out md:text-4xl"
-                    onclick="navigator.clipboard.writeText('011-3207-1129')"></a>
             </div>
             <div>
                 <a href="mailto:julio.cesar.urquiza4@gmail.com"
                     class="ri-mail-line text-2xl text-gray-400 hover:text-white transition-colors ease-in-out md:text-4xl"></a>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1dtwcrx4aZGUiSDOA25ysh-DcrSjfVVzf/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1dtwcrx4aZGUiSDOA25ysh-DcrSjfVVzf/view?usp=sharing" target="_blank"
                     class="ri-article-line text-2xl text-gray-400 hover:text-white transition-colors ease-in-out md:text-4xl"></a>
             </div>
         </article>
 
-    </aside>
+    </aside> -->
 
 
     <footer class="w-full text-gray-300 h-16 bg-gradient-to-b from-emerald-950 to-gray-950 border-t border-gray-500 ">
